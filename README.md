@@ -160,11 +160,14 @@ python separate.py 素材/main_meeting_pos_d8m_1580-141083-0053.wav --outdir 结
 | 底座权重与配方 | HuggingFace `JorisCos/ConvTasNet_Libri2Mix_sepclean_16k` | 随其模型卡 |
 | 训练语音干声 | LibriSpeech（openslr.org/12） | CC BY 4.0 |
 | 房间冲激响应 | 自建（pyroomacoustics 镜像源法仿真） | MIT |
-| 本仓库新增代码与权重 | 拾音客 | 见下 |
+| 本仓库新增代码与权重 | 拾音客 | **BSD-3-Clause**（见 [`LICENSE`](LICENSE)） |
 
 - `素材/` 中的 6 条样本由 LibriSpeech 干声 + 自建 RIR 仿真生成，使用与再分发请保留 LibriSpeech 的 CC BY 4.0 署名。
 - `训练记录/代码/pretrained/` 内是随包携带的官方底座权重，版权与许可归原作者。
-- 本仓库新增代码与训练权重由本仓库作者编写 / 训练，**尚未附加开源许可文件**；引用或复用请注明来源。
+- 本仓库新增代码与训练权重由本仓库作者编写 / 训练，以 **BSD-3-Clause** 授权（见根目录 [`LICENSE`](LICENSE)）：
+  可自由使用、修改、商用，但**必须保留版权声明与许可原文**，且不得用本团队名义为衍生品背书。
+- [`LICENSE`](LICENSE) **只覆盖本仓库新增的代码与训练权重**；随包的官方底座权重、`素材/` 中的样本
+  以及其它第三方组件仍归各自原作者，按上表各自的条款使用。
 
 ## 引用
 
